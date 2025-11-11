@@ -1,0 +1,16 @@
+# Node.js / build fájlok
+node_modules/
+dist/
+tmp/
+.cache/
+.vscode/
+.DS_Store
+
+# Környezeti változók
+.env
+.env.*
+
+# Logok
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
