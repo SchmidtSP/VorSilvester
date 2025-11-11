@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1762883213566,
+    "email": "asd@asd.asd",
+    "name": "asd",
+    "passHash": "$2a$10$SLft/jM2wdY3v5t5q7YytOf4OD/mP6CAirG9iYaFuNXmVLuvnlpJ.",
+    "createdAt": "2025-11-11T17:46:53.566Z"
+  },
+  {
+    "id": 1762884053731,
+    "email": "schmidtmartin0907@gmail.com",
+    "name": "Martin",
+    "passHash": "$2a$10$01S3kaIu3ZsllRj2UNr6wOHxhDXmjbZKsci3RPL69mzfxFeGSAAMy",
+    "createdAt": "2025-11-11T18:00:53.731Z"
+  }
+]
