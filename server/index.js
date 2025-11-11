@@ -47,7 +47,7 @@ app.use(express.json());
    Renderen adj hozzá egy Disk-et és állítsd: DATA_DIR=/data
    Így a users.json / orders.json tartós lesz redeploy után is.
 */
-const DATA_DIR = process.env.DATA_DIR ? process.env.DATA_DIR : __dirname;
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
 const USERS_FILE = path.join(DATA_DIR, "users.json");
 const ORDERS_FILE = path.join(DATA_DIR, "orders.json");
 
